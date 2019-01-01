@@ -85,7 +85,7 @@ int main(int argc, char **argv)
         return -1;
     }
 
-    /* Initalizing the custom memory pool to avoid */
+    /* Initalizing the custom memory pool to avoid frequent re-allocation */
     if (custom_pool != NULL)
     {
         for (j = 0; j < 255; j++)
